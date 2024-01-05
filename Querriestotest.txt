@@ -1,0 +1,59 @@
+query Getallusers{
+
+#   users{
+#     id
+#     name
+#     nationality
+#     friends {
+#       name
+#       age
+#     }
+#   }
+
+# }
+
+# query GetUser($userId: ID!){
+#   user(id: $userId) {
+#     name
+#     age 
+#     nationality
+#     friends {
+#       name
+#     }
+    
+#   }
+# }
+# query GelAllMovies{
+#   movies {
+#     id
+#     name
+#     isInTheaters
+#     yearOfPublication
+    
+#   }
+# }
+# query GetMovie($name: String!){
+#   movie(name: $name) {
+#     name
+#     isInTheaters
+#     yearOfPublication
+#   }
+# }
+
+
+# query($userId: ID!) {
+#   user(id: $userId) {
+#     name 
+#     id 
+#     age
+#     nationality
+#     friends {
+#       name
+#     }
+#     favouriteMovies {
+#       name
+#       yearOfPublication
+#       isInTheaters
+#     }
+#   }
+# }
